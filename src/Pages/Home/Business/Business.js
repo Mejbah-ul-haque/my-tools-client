@@ -11,7 +11,7 @@ const Business = () => {
 				<div className="stat-value">1000+</div>
 				<div className="stat-desc">customers</div>
 			</div>
-			<div className="stat text-primary">
+			<div className="stat text-green-600">
       <div className="stat-title text-3xl mb-5"><FontAwesomeIcon icon={faComment}></FontAwesomeIcon></div>
 				<div className="stat-value">31K</div>
 				<div className="stat-desc">Reviews</div>
@@ -23,7 +23,7 @@ const Business = () => {
 				<div className="stat-desc">Anual Revenue</div>
 			</div>
 
-			<div className="stat text-primary">
+			<div className="stat text-red-600">
 				<div className="stat-title text-red-600 text-3xl mb-5"><FontAwesomeIcon icon={faTools}></FontAwesomeIcon></div>
 				<div className="stat-value">50+</div>
 				<div className="stat-desc">Tools</div>
