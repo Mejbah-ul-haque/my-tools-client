@@ -11,7 +11,7 @@ const Banner = () => {
       <div className="hero banner-photo mx-auto" style={{background:`url(${banner})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize:'cover'}}>
         <div className="hero-overlay bg-opacity-5"></div>
         <div className="hero-content text-center text-neutral-content">
-          <div className="max-w-md mt-96 bg-[#003366] p-4 bg-opacity-50">
+          <div className="max-w-md bg-[#003366] p-4 bg-opacity-50">
             <h1 className="text-4xl font-bold text-secondary pb-7">Need any tools?</h1>
             <h1 className="text-5xl font-bold text-white ">Call:  019170000</h1>
             <p className="my-3 text-slate-300 text-2xl font-bold">Your satisfaction our first priority </p>

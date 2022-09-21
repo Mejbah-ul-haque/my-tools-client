@@ -10,13 +10,13 @@ const Tool = ({ tool }) => {
 		
 	return (
 		<div>
-			<div className="card bg-base-100 shadow-xl border border-accent hover:border-primary">
+			<div className="card bg-base-100 shadow-xl border border-primary text-white">
 				<figure>
 					<img src={img} alt="Shoes" />
 				</figure>
-				<div className="card-body bg-accent hover:bg-primary hover:text-white">
+				<div className="card-body bg-primary hover:bg-primary hover:text-white">
 					<h2 className="font-bold text-3xl mb-5 mt-[-50px]">
-						<span className="bg-primary border-2 border-white rounded-full p-3 text-white">
+						<span className="bg-primary border-4 border-white  py-3 px-10 text-white">
 							${price}
 						</span>
 					</h2>
@@ -44,7 +44,7 @@ const Tool = ({ tool }) => {
 					</div>
 					<div>
 						<Link to={`/service/${tool._id}`}>
-							{<button className="btn btn-primary font-bold rounded-full hover:btn-accent px-10 mt-10">
+							{<button className="btn btn-secondary border-2 border-black font-bold rounded-full hover:btn-accent px-10 mt-10">
 								Buy Now
 							</button>}
 						</Link>
