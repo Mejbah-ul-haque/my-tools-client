@@ -28,7 +28,7 @@ const Tool = ({ tool }) => {
 						<div className="badge badge-secondary text-center">OFFER</div>
 					</h2>
 					<p className="my-5">{description.slice(0, 120)}</p>
-					<div className="card-actions justify-between grid-rows-1">
+					<div className="card-actions justify-between grid-rows-1 border-y-2 hover:border-secondary py-3">
 						<div className="">
 							Minimum:{" "}
 							<span className="badge badge-outline bg-red-500 text-white text-xl p-3 hover:bg-red-800">
