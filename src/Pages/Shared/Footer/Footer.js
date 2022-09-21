@@ -208,7 +208,7 @@ const Footer = () => {
 				<section className="container mx-auto">
 					<img className="mb-2 mt-5 mx-auto" src={bankCard} alt="" />
 					<p className="text-white text-center py-4 mb-0">
-						<small> copyright &copy; {year} tools house. All rights reserved.</small>
+						<small> copyright &copy; {year} my tools. All rights reserved.</small>
 					</p>
 				</section>
 			</div>
