@@ -30,7 +30,7 @@ import Payment from './Pages/Dashboard/Payment';
 
 function App() {
   return (
-    <div className="App">
+    <div className="App bg-slate-100">
       <Navbar></Navbar>
       <Routes>
         <Route path="/" element={<Home />} />
