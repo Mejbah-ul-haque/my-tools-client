@@ -79,7 +79,7 @@ const Navbar = () => {
 							</ul>
 						</div>
 						<Link to="/" className="btn btn-ghost normal-case text-2xl font-bold text-secondary">
-							TOOLS HOUSE
+							MY TOOLS
 						</Link>
 					</div>
 					<div className="navbar-center hidden lg:flex">
