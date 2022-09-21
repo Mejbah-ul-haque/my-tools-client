@@ -1,70 +1,38 @@
-# Getting Started with Create React App
+# Project Name : Atafal Warehouse
+(the best electronics warehouse)
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## 1. Project Live Link : https://tools-house-155bc.web.app
 
-In the project directory, you can run:
+## Tools house [Live Link](https://tools-house-155bc.web.app).
 
-### `npm start`
+## 2. Github Client Side Link : https://github.com/programming-hero-web-course1/manufacturer-website-client-side-Mejbah-ul-haque
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+ ## Tools-House-client [Github Client Link](https://github.com/programming-hero-web-course1/manufacturer-website-client-side-Mejbah-ul-haque).
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 3. Github Server Side Link : https://github.com/programming-hero-web-course1/manufacturer-website-server-side-Mejbah-ul-haque
 
-### `npm test`
+ ## Tools house [Github Server Link](https://github.com/programming-hero-web-course1/manufacturer-website-server-side-Mejbah-ul-haque).
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 4. Admin Email : mejba@gmail.com
+password : 123456
 
-### `npm run build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## I have done the following bellow...
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+1.  A wonderful home page with responsive navbar, banner carousel,  realistic footer and  2 extra section. 
+2.  paymen method
+3.  Total two Firebase authentication implemented. Such as Email-password, Google Sign In.
+4. Password verification, 
+5. password reset option.
+6. Full responsive with navigation. Used Route, Private route, Dynamic route.
+7. use environment variable for password secret.
+8. Use gitignore file.
+9. 404, Not found page with a fenny picture.
+10. added category blog with all six Q/A.
+11. jwt token
+14. Use toast, Require Auth.
+15. Show error message.
+16. Use icon and fonts
+20. Framework/Library/App used : React.js, Nodejs, Express.js, Plain CSS, React hooks, Mongodb, Heroku, Firebase, imagebb.
