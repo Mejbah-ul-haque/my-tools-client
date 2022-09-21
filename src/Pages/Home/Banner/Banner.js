@@ -9,13 +9,13 @@ const Banner = () => {
     // </div>
     <div className=" container text-center">
       <div className="hero banner-photo mx-auto" style={{background:`url(${banner1})`, backgroundRepeat: 'no-repeat', backgroundPosition: 'center', backgroundSize:'cover'}}>
-        <div className="hero-overlay bg-opacity-50"></div>
+        <div className="hero-overlay bg-opacity-60"></div>
         <div className="hero-content text-center text-neutral-content">
           <div className="max-w-md mb-48">
-            <h1 className="text-4xl font-bold text-accent">Need any tools?</h1>
-            <h1 className="text-6xl font-bold text-red-700">Call:  019170000</h1>
-            <p className="my-5 text-primary">Your satisfaction our first priority </p>
-            <button className="btn rounded-full btn-accent my-5 px-5 font-bold"> Buy Now</button>
+            <h1 className="text-4xl font-bold text-secondary">Need any tools?</h1>
+            <h1 className="text-6xl font-bold text-white">Call:  019170000</h1>
+            <p className="my-3 text-primary text-2xl font-bold">Your satisfaction our first priority </p>
+            <button className="btn rounded-full btn-secondary my-2 px-20 font-bold"> Buy Now</button>
             
           </div>
         </div>
