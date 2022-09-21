@@ -42,17 +42,8 @@ const Navbar = () => {
 	);
 	return (
 		<div>
-			<div className="text-right container mx-auto mt-5">
-				<div>
-					
-				</div>
-				<div>
-				<small>Call us : +8823145620 | Email : mytools@house.com</small>
-				</div>
-				
-			</div>
-			<div className=" ">
-				<div className="navbar bg-primary container mx-auto text-white mt-5">
+			<div className=" bg-primary py-5">
+				<div className="navbar bg-primary container mx-auto text-white">
 					<div className="navbar-start">
 						<div className="dropdown">
 							<label tabIndex="0" className="btn btn-ghost lg:hidden">
@@ -78,7 +69,7 @@ const Navbar = () => {
 								{menuItems}
 							</ul>
 						</div>
-						<Link to="/" className="btn btn-ghost normal-case text-2xl font-bold text-secondary">
+						<Link to="/" className="btn btn-ghost normal-case text-3xl font-bold text-secondary">
 							MY TOOLS
 						</Link>
 					</div>
