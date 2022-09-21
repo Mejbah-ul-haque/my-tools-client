@@ -139,7 +139,7 @@ const Footer = () => {
 					<div className="grid grid-cols-1 lg:grid-cols-3 align-items-md-center">
 						<div className="col-sm-12 col-md-4 text-end text-white border-end border-[#8c8c8c] lh-sm">
 							<h1 className="lh-1 text-center text-5xl font-bold">
-								tools house
+								my tools
 							</h1>
 							<p className="text-center">
 								<small>we are manufacturing all over the World </small>
