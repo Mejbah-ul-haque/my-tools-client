@@ -47,7 +47,7 @@ const Navbar = () => {
 					
 				</div>
 				<div>
-				<small>Call us : 0000-12456 | Email : tools@house.com</small>
+				<small>Call us : +8823145620 | Email : mytools@house.com</small>
 				</div>
 				
 			</div>
