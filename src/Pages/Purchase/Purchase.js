@@ -15,7 +15,7 @@ const Purchase = () => {
 	const [prices, setPrices] = useState(0);
 
 	useEffect(() => {
-		fetch(`https://evening-dawn-30046.herokuapp.com/service/${id}`)
+		fetch(`https://damp-wave-89480.herokuapp.com/service/${id}`)
 			.then((res) => res.json())
 			.then((data) => setService(data));
 	}, [id]);
@@ -54,7 +54,7 @@ const Purchase = () => {
 			address: event.target.address.value,
 		};
 
-		fetch("https://evening-dawn-30046.herokuapp.com/purchase", {
+		fetch("https://damp-wave-89480.herokuapp.com/purchase", {
 			method: "POST",
 			headers: {
 				"content-type": "application/json",

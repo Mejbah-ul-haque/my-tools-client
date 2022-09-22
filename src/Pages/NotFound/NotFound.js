@@ -2,7 +2,7 @@ import React from "react";
 
 const NotFound = () => {
 	return (
-		<div className="container mx-auto">
+		<div className="container mx-auto text-center">
 			<div className="text-center">
 				<div className="m-5 grid justify-content items-center">
 					<img

@@ -5,7 +5,7 @@ const DeleteProduct = ({deleteOrder, refetch, setDeleteOrder}) => {
   const {toolsName, id} =deleteOrder;
   
   const handleDelete = () => {
-		fetch(`https://evening-dawn-30046.herokuapp.com/purchase/${id}`, {
+		fetch(`https://damp-wave-89480.herokuapp.com/purchase/${id}`, {
 			method: "DELETE",
 			headers: {
 				authorization: `Bearer ${localStorage.getItem("accessToken")}`,

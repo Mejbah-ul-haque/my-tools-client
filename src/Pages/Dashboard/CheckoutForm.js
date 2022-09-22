@@ -13,7 +13,7 @@ const CheckoutForm = ({ order }) => {
 	const { _id, price, userEmail, userName } = order;
 
 	useEffect(() => {
-		fetch("https://evening-dawn-30046.herokuapp.com/create-payment-intent", {
+		fetch("https://damp-wave-89480.herokuapp.com/create-payment-intent", {
 			method: "POST",
 			headers: {
 				"content-type": "application/json",
@@ -77,7 +77,7 @@ const CheckoutForm = ({ order }) => {
         transactionId: paymentIntent.id
         
       }
-			fetch(`https://evening-dawn-30046.herokuapp.com/purchase/${_id}`, {
+			fetch(`https://damp-wave-89480.herokuapp.com/purchase/${_id}`, {
 				method: "PATCH",
 				headers: {
 					"content-type": "application/json",

@@ -6,7 +6,7 @@ import Other from '../Other/Other';
 const Others = () => {
   
   const { data: products, isLoading } = useQuery("products", () =>
-		fetch("https://evening-dawn-30046.herokuapp.com/product", {
+		fetch("https://damp-wave-89480.herokuapp.com/product", {
 			headers: {
 				authorization: `Bearer ${localStorage.getItem("accessToken")}`,
 			},
