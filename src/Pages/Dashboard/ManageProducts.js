@@ -6,6 +6,7 @@ import ProductRow from "./ProductRow";
 
 const ManageProducts = () => {
   const [deletingProduct, setDeletingProduct] = useState(null);
+	
   
 	const { data: products, isLoading, refetch } = useQuery("products", () =>
 		fetch("https://damp-wave-89480.herokuapp.com/service", {
